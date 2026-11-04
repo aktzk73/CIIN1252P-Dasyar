@@ -2,7 +2,6 @@
 ## Descripción
 Resumen breve de qué hace este cambio.
 
-## Historia relacionada
 Closes #N
 
 ## Definition of Done
