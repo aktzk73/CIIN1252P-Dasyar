@@ -1,0 +1,7 @@
+- HU-001 · ADMINISTRADOR: Como administrador, quiero autenticarme con mi PIN para acceder de forma segura al panel de administración.
+- HU-002 · TRABAJADOR: Como trabajador, quiero registrar mi entrada y salida con mi DNI para dejar constancia de mi asistencia.
+- HU-003 · ADMINISTRADOR: Como administrador, quiero registrar, editar y dar de baja trabajadores para mantener actualizado quién puede marcar asistencia.
+- HU-004 · ADMINISTRADOR: Como administrador, quiero configurar turnos y tolerancia para que el sistema determine si una marcación es Puntual o Tardanza.
+- HU-005 · ADMINISTRADOR: Como administrador, quiero consultar y filtrar la asistencia por trabajador, fecha o turno para revisar puntualidad, tardanzas y faltas.
+- HU-006 · ADMINISTRADOR: Como administrador, quiero corregir una asistencia indicando el motivo para arreglar errores u omisiones sin perder la trazabilidad.
+- HU-007 · ADMINISTRADOR: Como administrador, quiero exportar la asistencia a Excel para usarla en el control de planilla.
