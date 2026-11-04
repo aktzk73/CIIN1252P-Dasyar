@@ -1,11 +1,9 @@
-## Pull Request: historia de usuario Dasyar
+# [HU-0X] Título breve y descriptivo de la funcionalidad
 ## Descripción
 Resumen breve de qué hace este cambio.
 
 ## Historia relacionada
 Closes #N
-
-- Historia: HU-0X
 
 ## Definition of Done
 - [ ] Está implementada y pasa pruebas unitarias.
