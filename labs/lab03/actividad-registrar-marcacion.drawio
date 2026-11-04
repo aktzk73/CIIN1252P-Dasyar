@@ -1,0 +1,119 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="cu002" name="CU-002 Registrar marcación">
+    <mxGraphModel dx="2038" dy="1197" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1400" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="A" parent="1" style="rounded=1;arcSize=50;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Inicio" vertex="1">
+          <mxGeometry height="40" width="140" x="230" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="B" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="El trabajador digita su DNI" vertex="1">
+          <mxGeometry height="50" width="200" x="200" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="C" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="¿DNI válido?" vertex="1">
+          <mxGeometry height="80" width="200" x="200" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="D" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="¿DNI activo?" vertex="1">
+          <mxGeometry height="80" width="200" x="200" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="F" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Determinar tipo de turno" vertex="1">
+          <mxGeometry height="50" width="200" x="200" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="G" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="¿Dentro del horario?" vertex="1">
+          <mxGeometry height="80" width="200" x="200" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="H" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="¿El turno ya tiene marcación &lt;br&gt;de entrada y salida?" vertex="1">
+          <mxGeometry height="98.5" width="295" x="155" y="661.5" as="geometry" />
+        </mxCell>
+        <mxCell id="I" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Calcular estado de la marcación" vertex="1">
+          <mxGeometry height="50" width="200" x="200" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="J" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Registrar marcación de asistencia" vertex="1">
+          <mxGeometry height="50" width="200" x="200" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="K" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Mostrar confirmación de registro con nombre, hora y estado" vertex="1">
+          <mxGeometry height="50" width="200" x="200" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="L" parent="1" style="rounded=1;arcSize=50;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Fin: marcación registrada" vertex="1">
+          <mxGeometry height="40" width="170" x="215" y="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="E1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="E1: Mostrar aviso &#39;DNI inválido&#39;" vertex="1">
+          <mxGeometry height="50" width="200" x="620" y="205" as="geometry" />
+        </mxCell>
+        <mxCell id="E2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="E2: Mostrar aviso &#39;DNI inactivo&#39;" vertex="1">
+          <mxGeometry height="50" width="200" x="620" y="335" as="geometry" />
+        </mxCell>
+        <mxCell id="E3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="E3: Mostrar aviso &#39;Fuera de horario&#39;" vertex="1">
+          <mxGeometry height="50" width="200" x="620" y="555" as="geometry" />
+        </mxCell>
+        <mxCell id="E4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="E4: Mostrar aviso &#39;Turno ya registrado&#39;" vertex="1">
+          <mxGeometry height="50" width="200" x="620" y="685" as="geometry" />
+        </mxCell>
+        <mxCell id="X" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" value="Resetear campos ingresados por el trabajador" vertex="1">
+          <mxGeometry height="60" width="200" x="900" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="e_AB" edge="1" parent="1" source="A" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;" target="B">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_BC" edge="1" parent="1" source="B" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;" target="C">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_CE1" edge="1" parent="1" source="C" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;labelBackgroundColor=#ffffff;" target="E1" value="No">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_CD" edge="1" parent="1" source="C" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;labelBackgroundColor=#ffffff;" target="D" value="Sí">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_DE2" edge="1" parent="1" source="D" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;labelBackgroundColor=#ffffff;" target="E2" value="No">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_DF" edge="1" parent="1" source="D" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;labelBackgroundColor=#ffffff;" target="F" value="Sí">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_FG" edge="1" parent="1" source="F" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;" target="G">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_GE3" edge="1" parent="1" source="G" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;labelBackgroundColor=#ffffff;" target="E3" value="No">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_GH" edge="1" parent="1" source="G" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;labelBackgroundColor=#ffffff;" target="H" value="Sí">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_HE4" edge="1" parent="1" source="H" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;labelBackgroundColor=#ffffff;" target="E4" value="Sí">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_HI" edge="1" parent="1" source="H" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;labelBackgroundColor=#ffffff;" target="I" value="No">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_IJ" edge="1" parent="1" source="I" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;" target="J">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_JK" edge="1" parent="1" source="J" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;" target="K">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_KL" edge="1" parent="1" source="K" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;" target="L">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_E1X" edge="1" parent="1" source="E1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="X">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_E2X" edge="1" parent="1" source="E2" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="X">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_E3X" edge="1" parent="1" source="E3" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="X">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_E4X" edge="1" parent="1" source="E4" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="X">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_XB" edge="1" parent="1" source="X" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="B">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1000" y="125" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
