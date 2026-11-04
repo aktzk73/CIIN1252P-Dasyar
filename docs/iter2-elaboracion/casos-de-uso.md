@@ -1,4 +1,4 @@
-# Casos de uso (v1.0)
+# Casos de uso (v1.1)
 
 ## CU-001: Autenticar administrador (cubre REQ-004)
 - Actor: Administrador
@@ -37,6 +37,7 @@
   3. Define el horario de cada turno y la tolerancia de entrada.
   4. Pulsa "Guardar".
   5. El sistema guarda la configuración y confirma.
+- Flujo alterno: si la tolerancia es mayor a 15 min, el sistema rechaza la configuración y muestra el mensaje "La tolerancia máxima es de 15 minutos".
 
 ## CU-005: Consultar y filtrar asistencia (cubre REQ-003)
 - Actor: Administrador

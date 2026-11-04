@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Diagrama de clases base" id="d3">
-    <mxGraphModel dx="1073" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1300" pageHeight="800" math="0" shadow="0">
+    <mxGraphModel dx="1280" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1300" pageHeight="800" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -40,17 +40,17 @@
         <mxCell id="c14" parent="c11" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;fontSize=10;whiteSpace=nowrap;" value="+verificarClave(clave: String) : boolean&#xa;+cambiarClave(actual: String, nueva: String) : void" vertex="1">
           <mxGeometry height="36" width="250" y="55" as="geometry" />
         </mxCell>
-        <mxCell id="c15" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;horizontal=1;startSize=26;html=1;fillColor=#EEFFFF;strokeColor=#1EC8E8;strokeWidth=2;fontSize=11;collapsible=0;swimlaneFillColor=#EEFFFF;marginBottom=0;" value="CLS-Turno" vertex="1">
-          <mxGeometry height="106" width="170" x="20" y="380" as="geometry" />
+        <mxCell id="c15" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;horizontal=1;startSize=26;html=1;fillColor=#FFE0B2;strokeColor=#F57C00;strokeWidth=2;fontSize=11;collapsible=0;swimlaneFillColor=#FFF3E0;marginBottom=0;" value="CLS-Turno" vertex="1">
+          <mxGeometry height="140" width="220" x="20" y="380" as="geometry" />
         </mxCell>
-        <mxCell id="c16" parent="c15" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;fontSize=10;whiteSpace=nowrap;" value="-nombre: String&#xa;-horaInicio: Time&#xa;-horaFin: Time" vertex="1">
-          <mxGeometry height="51" width="170" y="26" as="geometry" />
+        <mxCell id="c16" parent="c15" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;fontSize=10;whiteSpace=nowrap;" value="-nombre: String&lt;br&gt;-horaInicio: Time&lt;br&gt;-horaFin: Time&lt;br&gt;&lt;b style=&quot;color: rgb(77, 153, 0);&quot;&gt;-toleranciaMinutos: int&lt;/b&gt;" vertex="1">
+          <mxGeometry height="68" width="220" y="26" as="geometry" />
         </mxCell>
-        <mxCell id="c17" parent="c15" style="line;strokeWidth=2;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#1EC8E8;" value="" vertex="1">
-          <mxGeometry height="8" width="170" y="77" as="geometry" />
+        <mxCell id="c17" parent="c15" style="line;strokeWidth=2;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#F57C00;" value="" vertex="1">
+          <mxGeometry height="8" width="220" y="94" as="geometry" />
         </mxCell>
-        <mxCell id="c18" parent="c15" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;fontSize=10;whiteSpace=nowrap;" value="+contiene(hora: Time) : boolean" vertex="1">
-          <mxGeometry height="21" width="170" y="85" as="geometry" />
+        <mxCell id="c18" parent="c15" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;fontSize=10;whiteSpace=nowrap;" value="+contiene(hora: Time) : boolean&lt;br&gt;&lt;span style=&quot;color: rgb(77, 153, 0);&quot;&gt;&lt;b&gt;+validarTolerancia(min: int) : boolean&lt;/b&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="38" width="220" y="102" as="geometry" />
         </mxCell>
         <mxCell id="c19" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;horizontal=1;startSize=26;html=1;fillColor=#F0FFF0;strokeColor=#2ECC40;strokeWidth=2;fontSize=11;collapsible=0;swimlaneFillColor=#F0FFF0;marginBottom=0;" value="CLS-Marcacion" vertex="1">
           <mxGeometry height="121" width="190" x="270" y="380" as="geometry" />
