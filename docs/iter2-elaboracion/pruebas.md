@@ -10,8 +10,6 @@
 | PRU-006 | REQ-006 | Corregir una asistencia indicando el motivo | Asistencia corregida y motivo registrado |
 | PRU-007 | REQ-007 | Cambiar la contraseña del administrador con datos válidos | Contraseña actualizada; el siguiente acceso usa la nueva |
 | PRU-008 | REQ-008 | Calcular faltas y horas extras de un trabajador en un periodo | Faltas y horas extras calculadas según su Turno |
-
-
 | PRU-005a | Tolerancia de 15 minutos (límite) | Se guarda la configuración | CR-001 |
 | PRU-005b | Tolerancia de 20 minutos | Se rechaza y se muestra el mensaje de máximo 15 minutos | CR-001 |
 
