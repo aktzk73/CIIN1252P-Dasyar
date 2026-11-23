@@ -4,9 +4,9 @@
 - Actor: Administrador
 - Flujo principal:
   1. El administrador pulsa el botón "Administración".
-  2. Ingresa su PIN.
+  2. Ingresa su contraseña.
   3. Pulsa "Ingresar".
-  4. El sistema valida el PIN y muestra el panel principal.
+  4. El sistema valida la contraseña y muestra el panel principal.
 
 ## CU-002: Registrar marcación (cubre REQ-002)
 - Actor: Trabajador
