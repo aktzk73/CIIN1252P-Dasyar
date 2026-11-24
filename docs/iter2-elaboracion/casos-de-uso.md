@@ -72,9 +72,9 @@
 - Flujo principal:
   1. El administrador inicia sesión.
   2. Abre la sección de su cuenta.
-  3. Ingresa su PIN actual y el nuevo PIN.
+  3. Ingresa su contraseña actual y la nueva contraseña.
   4. Pulsa "Guardar".
-  5. El sistema valida los datos, actualiza el PIN y confirma.
+  5. El sistema valida los datos, actualiza la contraseña y confirma.
 
 ## CU-009: Calcular faltas y horas extras (cubre REQ-008)
 - Actor: Reloj del servidor
